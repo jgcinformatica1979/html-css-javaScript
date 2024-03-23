@@ -1,0 +1,40 @@
+@charset 'UTF-8';
+
+/*
+
+tudo que em html é id em css é #
+tudo que em html é class em css é .
+posso colocar mais de uma class no mesmo elemento
+*/
+
+
+
+
+
+body {
+    background-color: aquamarine;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+ h1 {
+    color: blue;
+
+}
+
+h1#principal {
+    text-align: center;
+}
+.basico {
+    color: darkblue;
+    font-size: xx-large;
+}
+
+.intermediario {
+    color: #042940;
+
+}
+.avancado{
+
+    color: #005C53;
+
+}

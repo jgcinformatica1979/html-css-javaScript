@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudoclasse epseudo elemento</title>
+    <!--
+        seletor pessonalizado 
+        # = id
+        . = class
+        : = pseudoclasse
+        :: = pseudoelemento
+        > = childer ou filho 
+
+    -->
+
+
+   
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bolder;
+
+        }
+        a:visited {
+            color: darkred;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: black;
+            
+        }
+        a:active {
+            color: yellow;
+        }
+        a::after {
+            content: ' link';
+        }
+        .especial::before {
+            text-decoration: violet;
+            font-size: xx-large;
+            content: 'joao';
+        }
+    </style>
+    <!--
+
+    -->
+
+</head>
+
+   
+<body>
+/#
+    #
+#/
+    <h1>pesonalizando link></h1>
+    <ul>
+        <li><a href="http://gustavoguanabara.github.io" class="especial">Repositorio github</a></li>
+        <li><a href="https://youtube.com/cursoemvideo">Canal do youtube</a></li>
+        <li><a href="https://cursoemvideo.com">Site curso em video</a></li>
+    </ul>
+</body>
+</html>

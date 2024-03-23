@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagem dinamica</title>
+    <style>
+        body{
+            background-color: rgba(255, 228, 196, 0.541);
+
+        }
+    </style>
+
+</head>
+<body>
+    <p>tente abri esse site em vario dispositivos</p>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="imagem/pequena.jpeg" type="image/jpeg">
+        <source media="(max-width:1050px)" srcset="imagem/media.jpeg" type="image/jpeg">
+        <img src="imagem/grande.jpeg" alt="imagm flexivivel">
+       
+    </picture>
+    <audio controls autoplay>
+        <source src="audio/guanacast-33.mp3" type="audio/mp3">
+        <source src="audio/guanacast-33.mp3" type="audio/wav">
+        <source src="audio/guanacast-33.mp3" type="audio/ogg">
+        <p>meus navegador nao esta acitando audio <a href="media/guanacast-33.mp3"> baixe </a> o arquivo no formato mp3</p>
+    </audio>
+    <p>video hopedagem local</p>
+    <video src="video/Aquecimento720.mp4" width="400px" controls autoplay>
+    </video>
+</body>
+</html>
