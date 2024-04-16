@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkbok e radiobutton</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="im"><label for="im">Masculino</label>
+            <input type="radio" name="sexo" id="if"><label for="if">Feminino</label>
+            <!--usa o mesmo name no check box para evitar escolherem mais de um-->
+           
+        </fieldset>
+       
+       <fieldset>
+        <legend>Eporte favorito</legend>
+        <input type="checkbox" name="futebol" id="ifutebol" checked><label for="ifutebol">futebol</label>
+        <input type="checkbox" name="basquete" id="ibaqueste" checked><label for="ibaqueste">Basquete</label>
+        <input type="checkbox" name="tenis" id="iteni"><label for="iteni">Tenis</label>
+         <!--checked  para pre marcar o valor-->
+
+
+       </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+    
+</body>
+</html>
