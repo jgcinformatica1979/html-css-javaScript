@@ -8,6 +8,7 @@
 // para ver se é extritamente igual ===
 // usa ! na frente de == para ver se é diferente
 // o operador && compara se uma expressao e a outra é verdadeira e retorna o ultimo  verdadeiro
+// operador ou || dois pipe esta em busca do verdadeiro, retorna o primeiro valor true que encontrar 
 
 //Use a combinação Alt + 124 para criar um pipe; Use a combinação Alt + 92 para criar uma conta barra.
 
@@ -62,3 +63,7 @@ if ((5-10) && (5+5)){
     console.log('falso')
 }
 
+var condicional = (5-5) || (5+5) || (10-2)
+console.log(condicional)
+condicional = (5-5) || (5+5) && (10-2)
+console.log(condicional)  // retorna o ultimo verdadeiro
